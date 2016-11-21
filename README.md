@@ -62,3 +62,8 @@ Following Google Recommendations // Udacity's Website Performance Optimization C
 3. Move javascript files to bottom of html page and add async
 4. resize pizzeria.jpg to pizzeria-min.jpg via http://compressimage.toolur.com/
 5. comment out google font
+
+####Part 2: Optimize Frames per Second in pizza.html
+
+1. Followed Cameron's example to fix pizza slide resizing. Removed Dx as well
+2. Realized js was creating 200 moving pizzas every time, changed to create pizzas based on window height.
